@@ -320,3 +320,351 @@ De igual manera, se pide que al menos una de las páginas dentro del contenido d
     </body>
 </html>
 ```
+#### Pagina Localizaciones.html
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Localidades COMDETUP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header><!--ETIQUETA DE CABECERA, PARA LOGO-->
+            <audio src="../audio/AMiLindoEcuador.mp3" preload="auto" controls autoplay></audio><!--ETIQUETA DE AUDIO, PATH RELATIVO, ACOREDE A ORGANIZACION EN CARPETAS, CON CONTROLES PARA MANEJAR REPRODUCCION-->
+            <h1>Localidades</h1>            
+           <nav><!--ETIQUETA DE NAVEGACION PARA PODER CAMBIAR ENTRE PAGINAS-->
+                <ul>
+                     <!--LINKS HACIA PAGINAS EXTERIORES-->
+                    <li><a href="Redes.html">Redes Sociales</a></li>
+                    <li><a href="Localizaciones.html">Localizaciones</a></li>
+                    <li><a href="index.html">Productos de la semana</a></li>
+                    <li><a href="Lista.html">Oferta</a></li>
+                    <li><a href="Pago.html">Metodos de pago</a></li>
+                    <li><a href="Calificacion.html">Califiquenos</a></li>
+                    <li><a href="Mision.html">Nosotros</a></li>
+                    <li><a href="Credito.html">Credito Directo</a></li>
+                </ul>
+            </nav>
+            <img src="../imagenes/logo.gif" alt="Icono"/> <!--ETIQUETA PARA LOGO-->
+        </header>
+        <section id="Cuenca"> <!--ETIQUETA PARA SECCION CUENCA, SECCION INDEPENDIENTE-->
+            <article> <!--ARTICULO SOBRE LOCALIZACION CUENCA CON FOTO CORRESPONDIENTE-->
+                <img src="../imagenes/cuenca.jpg" alt="Cuenca"/>
+                <aside>
+                    <p>Cuenca:Av Don Alonso y Fray Roberto Saliente</p>
+                </aside>                    
+            </article>            
+        </section>
+        <section id="Guayaquil"><section id="Cuenca"> <!--ETIQUETA PARA SECCION GUAYAQUIL, SECCION INDEPENDIENTE-->
+            <article><article> <!--ARTICULO SOBRE LOCALIZACION CUENCA CON FOTO CORRESPONDIENTE-->
+                <img src="../imagenes/guayaquil.jpeg" alt="Guayaquil"/>
+                <aside>
+                    <p>Cuenca:Av 19 de Octubre y Simon Calar</p>
+                </aside>                    
+            </article>            
+        </section>
+        <footer>Martin Bojorque&#8226;&nbsp;<a href="mailto:atencionclidnte@comdetup.com">Email:atencioncliente@comdetup.com</a>&#8226;<a href="tel:+5932543678">Telf:(593)2543678</a>&#8226;Todos los derechos reservados&#169;</footer><!--ETIQUETA DE PIE DE PAGINA CON CADA ITEM REUQERIDO-->
+    </body>
+</html> 
+```
+#### Pagina Pago.html     
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagos COMDETUP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header><!--ETIQUETA DE CABECERA, PARA LOGO-->
+            <h1>Metodos de pago</h1>
+            <nav><!--ETIQUETA DE NAVEGACION PARA PODER CAMBIAR ENTRE PAGINAS-->
+                <ul>
+                     <!--LINKS HACIA PAGINAS EXTERIORES-->
+                    <li><a href="Redes.html">Redes Sociales</a></li>
+                    <li><a href="Localizaciones.html">Localizaciones</a></li>
+                    <li><a href="index.html">Productos de la semana</a></li>
+                    <li><a href="Lista.html">Oferta</a></li>
+                    <li><a href="Pago.html">Metodos de pago</a></li>
+                    <li><a href="Calificacion.html">Califiquenos</a></li>
+                    <li><a href="Mision.html">Nosotros</a></li>
+                    <li><a href="Credito.html">Credito Directo</a></li>
+                </ul>
+            </nav>
+            <img src="../imagenes/logo.gif" alt="Icono"/> <!--ETIQUETA DE LOGO-->
+        </header>
+        <section> <!--ETIQUETA DE SECCION DE TIPOS DE PAGO, SECCION INDEPENDIENTE-->
+            <article>
+                <img src="../imagenes/dinero.png" alt="Icono"/>  <!--ETIQUETA DE ARTICULO PARA FORMAS DE PAGO, IMAGEN CORRESPONDIENTE-->
+                <aside>
+                    <ul> <!--ETIQUETA PARA LISTA DE FORMAS DE PAGO-->                    
+                        <li>Efectivo</li>
+                        <li>Cheque</li>
+                        <li>Credito Directo</li>
+                        <li>Tarjeta de Debido</li>
+                        <li>Tarjeta de Credito</li>
+                    </ul>                
+                </aside>                
+            </article>            
+        </section>
+        <section> <!--SECCION DE BANCOS AFILIADOS-->
+            <article>
+                <h2>Bancos</h2>
+                <img src="../imagenes/bancos.png" alt="Icono"/> <!--ETIQUETA DE ARTICULO PARA BANCOS, IMAGEN CORRESPONDIENTE--> 
+                <aside>
+                    <ul><!--ETIQUETA PARA LISTA DE BANCOS AFILIADOS-->                      
+                        <li>Austro</li>
+                        <li>Machala</li>
+                        <li>Pacifico</li>
+                        <li>JEP</li>
+                        <li>Guayaquil</li>
+                    </ul>                
+                </aside>                
+            </article>            
+        </section>
+        <footer>Martin Bojorque&#8226;&nbsp;<a href="mailto:atencionclidnte@comdetup.com">Email:atencioncliente@comdetup.com</a>&#8226;<a href="tel:+5932543678">Telf:(593)2543678</a>&#8226;Todos los derechos reservados&#169;</footer><!--ETIQUETA DE PIE DE PAGINA CON CADA ITEM REUQERIDO-->
+    </body>
+</html>      
+```
+#### Pagina Redes.html  
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Redes Sociales COMDETUP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <meta name=”keywords” content="HTML prueba preparacion" />        
+    </head>
+    <body>
+        <header><!--ETIQUETA DE CABECERA, PARA LOGO-->
+            <h1>Redes Sociales</h1>
+            <video preload controls autoplay><!--ETIQUETA DE VIDEO, PATH RELATIVO, ACOREDE A ORGANIZACION EN CARPETAS, CON CONTROLES PARA MANEJAR REPRODUCCION-->
+                <source src="../video/video.mp4" type="video/mp4">            
+            Tu navegador no implementa el elemento <code>video</code>.
+            </video>
+            <nav><!--ETIQUETA DE NAVEGACION PARA PODER CAMBIAR ENTRE PAGINAS-->
+                <ul>
+                    <!--LINKS HACIA PAGINAS EXTERIORES-->
+                    <li><a href="Redes.html">Redes Sociales</a></li>
+                    <li><a href="Localizaciones.html">Localizaciones</a></li>
+                    <li><a href="index.html">Productos de la semana</a></li>
+                    <li><a href="Lista.html">Oferta</a></li>
+                    <li><a href="Pago.html">Metodos de pago</a></li>
+                    <li><a href="Calificacion.html">Califiquenos</a></li>
+                    <li><a href="Mision.html">Nosotros</a></li>
+                    <li><a href="Credito.html">Credito Directo</a></li>
+                </ul>
+            </nav>
+            <img src="../imagenes/logo.gif" alt="Icono"/><!--ETIQETA PARA LOGO-->
+            <p>Bienvenidos a nuestra seccion de redes sociales.</p>
+            <p>Te invitamos a seguirnos en nuestras redes sociales y a compartir nuestro contenido</p>            
+        </header>
+        <section id="Twitter"><!--SECCION TWITTER,SECCION INDEPENDIENTE-->
+            <article>
+                <nav><!--LINKS HACIA PAGINAS EXTERIORES, CON IMAGEN COMO ENLACE, ENLACE HTTP A TWITTER-->
+                    <a href="http://www.twitter.com"><img src="../imagenes/twitter.png" alt="tuiter" /></a>                    
+                </nav>
+                <aside><!--DESCRIPCION DE ARTICULO-->
+                    <p>Twitter</p>
+                    <p>Siguenos para noticias diarias,degustaciones y promociones semanales,sorteos entre clientes afiliados, entre otros.</p>
+                    <p>&#64;DeTodoUnPoco</p>
+                </aside>
+            </article>      
+        </section>        
+        <section id="Facebook"><!--SECCION FACEBOOK,SECCION INDEPENDIENTE-->
+            <article>
+                <nav><!--LINKS HACIA PAGINAS EXTERIORES, CON IMAGEN COMO ENLACE, ENLACE HTTP A FACEBOOK-->
+                    <a href="http://www.facebook.com"><img src="../imagenes/facebook.png" alt="feisbuk" /></a>                   
+                </nav>
+                <aside><!--DESCRIPCION DE ARTICULO-->
+                    <p>Facebook Siguenos para noticias diarias,degustaciones y promociones semanales,sorteos entre clientes afiliados,eventos promocionales,informacion sobre los locales.</p>
+                    <p>&#64;DeTodoUnPoco</p>
+                </aside>
+            </article>      
+        </section>
+        <footer>Martin Bojorque&#8226;&nbsp;<a href="mailto:atencionclidnte@comdetup.com">Email:atencioncliente@comdetup.com</a>&#8226;<a href="tel:+5932543678">Telf:(593)2543678</a>&#8226;Todos los derechos reservados&#169;</footer><!--ETIQUETA DE PIE DE PAGINA CON CADA ITEM REUQERIDO-->
+    </body>
+</html>        
+```
+#### Pagina Credito.html
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Credito Directo COMDETUP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header><!--ETIQUETA DE CABECERA, PARA LOGO-->
+            <h1>Credito Directo COMDETUP</h1> 
+            <nav><!--ETIQUETA DE NAVEGACION PARA PODER CAMBIAR ENTRE PAGINAS-->
+                <ul>
+                    <!--LINKS HACIA PAGINAS EXTERIORES-->
+                    <li><a href="Redes.html">Redes Sociales</a></li>
+                    <li><a href="Localizaciones.html">Localizaciones</a></li>
+                    <li><a href="index.html">Productos de la semana</a></li>
+                    <li><a href="Lista.html">Oferta</a></li>
+                    <li><a href="Pago.html">Metodos de pago</a></li>
+                    <li><a href="Calificacion.html">Califiquenos</a></li>
+                    <li><a href="Mision.html">Nosotros</a></li>
+                    <li><a href="Credito.html">Credito Directo</a></li>
+                </ul>
+            </nav>
+            <img src="../imagenes/logo.gif" alt="Icono"/><!--ETIQUETA PARA LOGO-->
+        </header>
+        <section><!--ETIQUETA PARA SECCION CREDITO DIRECTO, SECCION INDEPENDIENTE, CON IMAGEN CORRESPONDIENTE-->
+            <article>
+                <img src="../imagenes/credito.png" alt="Credito"/><!--ETIQETA PARA LOGO-->
+                <aside>
+                    <p>Nuestro credito directo te permite comprar en nuestros locales, sin efectivo, con seguridad BIOMETRICA. Para que nada te detenga de obtener lo que quieras.</p>                    
+                        <table border="2" frame="box"><!--ETIQUETA PARA TABLA DE INTERES DE CREDITO-->
+                            <caption><!--ETIQUETA PARA TITULO DE TABLA-->
+                                Tabla de interes para el servicio de credito directo
+                            </caption>
+                            <thead ><!--ETIQUETA PARA CABECERA DE TABLA, CORRESPONDIENTE CON LA IMAGEN ANTES PRESENTADA-->
+                                <tr>
+                                    <th rowspan="2">Tipo de membresia</th><!--ETIQUETA PARA CELDA CON DIMENSIONES ESPECIALES-->
+                                    <th colspan="2">Años de membresia</th><!--ETIQUETA PARA CELDA CON DIMENSIONES ESPECIALES-->
+                                </tr>
+                                <tr>
+                                    <th>Menos de cinco años de membresia</th><!--ETIQUETA PARA CELDA-->
+                                    <th>Cinco o mas años de membresia</th><!--ETIQUETA PARA CELDA-->
+                                </tr>                                    
+                            </thead>
+                            <tbody><!--ETIQUETA PARA CUERPO DE TABLA-->
+                                <tr>
+                                    <th>Gold</th><!--ETIQUETA PARA CELDA CON TEXTO ESPECIAL-->
+                                    <td>3%</td>
+                                    <td>2%</td>
+                                </tr>
+                                <tr>
+                                    <th>Platinum</th><!--ETIQUETA PARA CELDA CON TEXTO ESPECIAL-->
+                                    <td>2%</td>
+                                    <td>1.5%</td>
+                                </tr>
+                            </tbody>                            
+                            <tfoot><!--ETIQUETA PARA FINAL DE TABLAL-->
+                                <tr>
+                                    <td colspan="3">Las codiciones de cada usuario deben ser verificadas por el establecimiento y estan sujatas a su aprobacion.</td>
+                                </tr>
+                            </tfoot>
+                        </table>                    
+                </aside>                    
+            </article>
+        </section>
+        <section><!--ETIQUETA PARA SECCION DE PREREQUISITOS, SECCION INDEPENDIENTE, CON IMAGEN CORRESPONDIENTE-->
+            <article>
+                <img src="../imagenes/logo.gif" alt="Logo"/>
+                <aside>
+                    Para poder acceder a este servicio lo necesario es:
+                        <ul><!--ETIQUETA PARA LISTA DE PREREQUISITOS-->
+                            <li>Tu cedula de identidad</li>
+                            <li>Una cueta de ahorros</li>
+                            <li>Llenar un formulario</li>
+                        </ul>
+                        Y listo tienes tu credito.El proceso puede tomar de 24 a 72 horas.                    
+                </aside>
+            </article>
+        </section>
+    <footer>Martin Bojorque&#8226;&nbsp;<a href="mailto:atencionclidnte@comdetup.com">Email:atencioncliente@comdetup.com</a>&#8226;<a href="tel:+5932543678">Telf:(593)2543678</a>&#8226;Todos los derechos reservados&#169;</footer><!--ETIQUETA DE PIE DE PAGINA CON CADA ITEM REUQERIDO-->
+    </body>
+</html>        
+```
+#### Pagina Calificacion.html 
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Califiquenos COMDETUP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header><!--ETIQUETA DE CABECERA, PARA LOGO-->
+            <h1>Califiquenos</h1> 
+            <nav><!--ETIQUETA DE NAVEGACION PARA PODER CAMBIAR ENTRE PAGINAS-->
+                <ul>
+                    <!--LINKS HACIA PAGINAS EXTERIORES-->
+                    <li><a href="Redes.html">Redes Sociales</a></li>
+                    <li><a href="Localizaciones.html">Localizaciones</a></li>
+                    <li><a href="index.html">Productos de la semana</a></li>
+                    <li><a href="Lista.html">Oferta</a></li>
+                    <li><a href="Pago.html">Metodos de pago</a></li>
+                    <li><a href="Calificacion.html">Califiquenos</a></li>
+                    <li><a href="Mision.html">Nosotros</a></li>
+                    <li><a href="Credito.html">Credito Directo</a></li>
+                </ul>
+            </nav>
+            <img src="../imagenes/logo.gif" alt="Icono"/>
+        </header>
+        <section><!--ETIQUETA PARA SECCION DEL VIDEO DE YOUTUBE-->
+            <article><!--ETIQUETA PARA ARTICULO CON DESCRIPCION DEL VIDEO DE YOUTUBE-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JwBf_9M1S7k"></iframe><!--ETIQUETA IFRAME PARA UN VIDEO EMBEBIDO DE YOUTUBE CON ESPECIFICACIONES DE DIMENSIONES-->
+            </article>
+            <aside>
+                <p> Un video explicativo de una fuente externa (Youtube).PATROCINADOR</p>
+            </aside>
+        </section>
+        <section><!--ETIQUETA PARA SECCION EXPLICACIOND DE LAS CALIFICACIONES, CON IMAGEN CORRESPONDIENTE-->
+            <article>
+                <img src="../imagenes/usuarios.png" alt="Icono"/>
+            </article>
+            <aside>
+                <p>Nuestra seccion de calificaciones se encuentra implementada para mayor comodidad sobre cada una de las redes sociales de la empresa.</p>
+            </aside>
+        </section>
+        <footer>Martin Bojorque&#8226;&nbsp;<a href="mailto:atencionclidnte@comdetup.com">Email:atencioncliente@comdetup.com</a>&#8226;<a href="tel:+5932543678">Telf:(593)2543678</a>&#8226;Todos los derechos reservados&#169;</footer><!--ETIQUETA DE PIE DE PAGINA CON CADA ITEM REUQERIDO-->
+    </body>
+</html>    
+```
+#### Pagina Nosostros.html         
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nosotros COMDETUP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header><!--ETIQUETA DE CABECERA, PARA LOGO-->
+            <h1>Nosotros</h1> 
+            <nav><!--ETIQUETA DE NAVEGACION PARA PODER CAMBIAR ENTRE PAGINAS-->
+                <ul>
+                    <!--LINKS HACIA PAGINAS EXTERIORES-->
+                    <li><a href="Redes.html">Redes Sociales</a></li>
+                    <li><a href="Localizaciones.html">Localizaciones</a></li>
+                    <li><a href="index.html">Productos de la semana</a></li>
+                    <li><a href="Lista.html">Oferta</a></li>
+                    <li><a href="Pago.html">Metodos de pago</a></li>
+                    <li><a href="Calificacion.html">Califiquenos</a></li>
+                    <li><a href="Mision.html">Nosotros</a></li>
+                    <li><a href="Credito.html">Credito Directo</a></li>
+                </ul>
+            </nav>
+            <img src="../imagenes/logo.gif" alt="Icono"/>
+        </header>
+        <section><!--ETIQUETA DE SECCION MISION, SECCION INDEPENDIENTE, CON IMAGEN CORRESPONDIENTE -->
+            <article>
+                <img src="../imagenes/mision.png" alt="Mision"/>
+            </article>
+            <aside><!--DESCRIPCION DE ARTICULO-->
+                <p>Convertirnos en una franquicia nacional, comprometida con nuestros clientes</p>
+            </aside>
+        </section>
+        <section><!--ETIQUETA PARA SECCION DE VISION, SECCION INDEPENDIENTE, CON IMAGEN CORERSPONDIENTE-->
+            <article>
+                <img src="../imagenes/vision.png" alt="Vision"/>
+            </article>
+            <aside>
+                <p>Proveer alimentos, productos de primera necesidad, y otros articulos localcmente.</p>
+            </aside>
+        </section><!--DESCRIPCION DE ARTICULO-->
+        <footer>Martin Bojorque&#8226;&nbsp;<a href="mailto:atencionclidnte@comdetup.com">Email:atencioncliente@comdetup.com</a>&#8226;<a href="tel:+5932543678">Telf:(593)2543678</a>&#8226;Todos los derechos reservados&#169;</footer><!--ETIQUETA DE PIE DE PAGINA CON CADA ITEM REUQERIDO-->
+    </body>
+</html>
+```
