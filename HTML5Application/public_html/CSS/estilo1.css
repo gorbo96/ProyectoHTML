@@ -8,3 +8,9 @@ and open the template in the editor.
     Author     : BMGPC
 */
 
+* {
+    border: black solid 1px    
+}
+img {
+    width: 150px
+}
