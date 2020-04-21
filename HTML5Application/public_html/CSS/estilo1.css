@@ -9,8 +9,92 @@ and open the template in the editor.
 */
 
 * {
-    border: black solid 1px    
+    font-family: 'Lato', sans-serif;        
 }
-img {
-    width: 150px
+body {
+    width: 1200px;
+    height: 2400px;
+}
+
+header.Encabezado {
+    background-color: #426994;
+    width: 1200px;
+    height: 290px;    
+    border: 2px solid #6787a9;        
+}
+header.Encabezado * {
+    display: inline-block;
+    float: left;
+}
+*.Icono {
+    width: 45px;
+    padding: 35px;
+}
+form  {
+    width: 672px;
+    height: 120px;
+}
+form *{    
+    border: 0px;    
+    padding: 0px;   
+    margin: 25px 0px 25px 0px;
+    width: 670px;
+}
+img.Logo {
+    height: 100px;
+    padding: 10px;
+}
+ul * {    
+    width: 147px;
+    height: 40px;
+}
+nav *{
+    border: 1px solid #6787a9;    
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+h1,h2{
+    clear: both;
+    text-align: center;
+    width: 100%;    
+}
+article header{
+    float: right;
+}
+article aside {
+    float: left;    
+}
+
+footer {
+    float: left;
+    border-top: 2px solid #6787a9;
+    width: 100%;
+}
+article img {
+    width: 560px;
+    height: 560px;
+}
+section.Ofertas, section.Ofertas * {
+    background-color: #d9e1e9;
+}
+section h2{
+    border: 0px;    
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+article aside {
+    width: 640px;
+    height: 623px;
+}
+section.Nuevo, section.Nuevo * {
+    background-color: #a0b4c9;
+}
+section.Dirigentes div {
+    width: 300px;
+    float: left;
+}
+section.Dirigentes img {
+    margin: 5px;
 }

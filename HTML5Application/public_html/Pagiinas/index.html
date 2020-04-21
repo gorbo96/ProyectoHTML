@@ -8,11 +8,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name=”keywords” content="HTML prueba preparacion" />
         <link href="../CSS/estilo1.css" type="text/css" rel="stylesheet"/>
-    </head>      
-    <body>
-        <header>
-            <img src="../imagenes/logo.gif" alt="Icono"/>
-            <h1>Bazar de TODO un POCO</h1> 
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+        </style>        
+    </head>    
+    <body>        
+        <header class="Encabezado">            
+            <img src="../imagenes/logo.gif" alt="Logo" class="Logo"/>
+            <form>
+                <fieldset>
+                    <input type="text" id="busqueda" />
+                </fieldset>
+            </form>
+            <img src="../imagenes/login.png" alt="Login" class="Icono"/>
+            <img src="../imagenes/mensaje.png" alt="Mensajes" class="Icono"/>
+            <img src="../imagenes/añadir.png" alt="Mensajes" class="Icono"/>             
             <nav>
                 <ul>
                     <li><a href="Redes.html">Redes Sociales</a></li>
@@ -25,14 +35,15 @@
                     <li><a href="Credito.html">Credito Directo</a></li>
                 </ul>
             </nav>
+            <h1>Bazar de TODO un POCO</h1>
         <h2>La variedad es nuestra insignia</h2>        
         </header>        
-        <section>
+        <section class="Ofertas">
             <h2>Nuestras  ofertas</h2>
             <article>
                 <header>
                     <h3>Productos de la semana</h3>    
-                    <img src="../imagenes/oferta.jfif" alt="Ofertas">
+                    <img src="../imagenes/oferta.jpg" alt="Ofertas">
                 </header>            
             <aside>
                 <dl>
@@ -94,7 +105,7 @@
             </aside>
             </article>
         </section>
-        <section>
+        <section class="Nuevo">
             <h2>Innovando</h2>
             <article>
                 <header><h3>Nuevos Productos</h3>
@@ -117,6 +128,36 @@
                 </aside>                    
             </article>
         </section>
-        <footer>Martin Bojorque&#8226;&nbsp;<a href="mailto:atencionclidnte@comdetup.com">Email:atencioncliente@comdetup.com</a>&#8226;<a href="tel:+5932543678">Telf:(593)2543678</a>&#8226;Todos los derechos reservados&#169;</footer>
-    </body>
+        <section class="Dirigentes">
+            <h2>Dirijentes</h2>
+            <header>
+                <h3>Nuestos cargos</h3>                
+            </header>
+            <div>
+                <img src="../imagenes/usuarios.png" alt="Gerente">
+                <p><strong>Gerente</strong></p>
+                <p><i>Aurelio Marquez.</i></p>
+                <p>Mgst. en Administracion de empresas.Certificacion en liderazgo innovador.</p>
+            </div>
+            <div>
+                <img src="../imagenes/usuarios.png" alt="Subgerente">
+                <p><strong>Sub-gerente</strong></p>
+                <p><i>Marcelo Pacheco.</i></p>
+                <p>Lic. en Administracion de Empresas.Certificaion en innovacion de crecimiento de bolsa.</p>
+            </div>
+            <div>
+                <img src="../imagenes/usuarios.png" alt="DirigenteBodega">
+                <p><strong>Coordinador de Bodega</strong></p>
+                <p><i>Francisco Vazquez.</i></p>
+                <p>Certificacion en monitoreo de almacenamiento innovador.</p>
+            </div>
+            <div>
+                <img src="../imagenes/usuarios.png" alt="DirigenteVentas">
+                <p><strong>Coordinador de Ventas</strong></p>
+                <p><i>Alexis Barquez.</i></p>
+                <p>Mgs en marketing digital.</p>
+            </div>            
+        </section>
+        <footer>Martin Bojorque&#8226;&nbsp;<a href="mailto:atencionclidnte@comdetup.com">Email:atencioncliente@comdetup.com</a>&#8226;<a href="tel:+5932543678">Telf:(593)2543678</a>&#8226;Todos los derechos reservados&#169;</footer>    
+    </body>    
 </html>
