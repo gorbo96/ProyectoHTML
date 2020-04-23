@@ -62,6 +62,8 @@ caption {
     border: 5px #426994 ridge;
 }
 section {
+    clear: both;
+    width: 100%;
     border: 2px #426994 inset;
     background-color: #d9e1e9;
 }
@@ -80,5 +82,10 @@ div.Texto {
 footer {
     float: left;
     border-top: 2px ridge #6787a9;
+    width: 100%;
+}
+section.Formulario *{
+    float: left;
+    display: inline-block;
     width: 100%;
 }
