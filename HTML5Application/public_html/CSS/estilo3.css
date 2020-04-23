@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 22, 2020, 3:18:49 PM
+    Author     : BMGPC
+*/
+* {
+    font-family: 'Lato', sans-serif;
+}
+body {
+    width: 1200px;    
+}
+header {
+    width: 100%;
+    background-color: #426994;
+    border: 2px ridge #6787a9;
+}
+header * , header{
+    float: left;
+}
+footer {
+    float: left;
+    border-top: 2px ridge #6787a9;
+    width: 100%;
+}
+h1,h2,h3 {
+    width: 100%;
+    text-align: center;
+}
+header img {
+    height: 200px;    
+}
+nav *{    
+    text-align: center;    
+}
+ul *{
+    width: 464px;        
+    height: 50px;
+}
+nav, nav ul {
+    height: 200px;
+    width: 929px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.Navegacion li {
+    list-style-image: url(../imagenes/nada.png);
+}
+.Bancos li {
+    list-style-image: url(../imagenes/itembancos.png);
+}
+.Efectivo li {
+    list-style-image: url(../imagenes/efectivo.png);
+}
+audio {
+    visibility: hidden;
+}
+article aside {
+    float: right;
+    display: inline-block;
+}
+article img {
+    width: 25%;
+}
+section,h2,h3 {
+    background-color: #a0b4c9;
+    border: 1px ridge #426994;
+    padding: 0px;
+    margin: 0px;
+}

@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 22, 2020, 6:45:03 PM
+    Author     : BMGPC
+*/
+* {
+    font-family: 'Lato', sans-serif;    
+}
+body {
+    width: 1200px;    
+}
+header {
+    background-color: #426994;
+    width: 1200px;     
+    border: 2px solid #6787a9;
+    float: left;
+}
+header * {
+    display: inline-block;  
+}
+header h1 {
+    float: top contour;
+    width: 100%;
+}
+header nav {
+    float: bottom contour;
+    width: 100%;
+}
+header div {
+    float: top contour;
+    width: 100%;
+    margin-left: 440px;    
+}
+header div img {
+    width: 250px;
+}
+h1,h2,h3 {
+    width: 100%;
+    text-align: center;
+    border: 2px #6787a9 groove;
+}
+nav ul *{
+    display: inline-block;
+    float: left;
+    padding: 4px 10px 4px;
+    border: 1px #a0b4c9 ridge;
+}
+thead *{    
+    border: 3px #426994 double;    
+}
+tbody *{    
+    border: 3px #a0b4c9 double;    
+}
+tfoot *{    
+    border: 3px #a0b4c9 solid;    
+}
+caption {
+    border: 5px #426994 ridge;
+}
+section {
+    border: 2px #426994 inset;
+    background-color: #d9e1e9;
+}
+div.Imagen {
+    width: 45%;
+    float: left;       
+}
+div.Imagen img {
+    width: 100%;
+}
+div.Texto {
+    width: 54%;
+    float: right;
+    border: 1px #426994 solid;
+}
+footer {
+    float: left;
+    border-top: 2px ridge #6787a9;
+    width: 100%;
+}

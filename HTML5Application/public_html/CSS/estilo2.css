@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 21, 2020, 9:05:54 AM
+    Author     : BMGPC
+*/
+* {
+    font-family: 'Lato', sans-serif;        
+}
+body {
+    width: 1200px;    
+}
+header#Encabezado {
+    width: 100%;
+    background-color: #426994;
+    border: 2px solid #6787a9;
+}
+div#menu{
+   width: 29%;
+   background-color: #d9e1e9;
+   float: left;
+   border: 1px #6787a9 groove;
+}
+div#menu * {    
+    width: 100%;
+    padding: 10px 0px 10px;
+    margin-left: 0px;    
+}
+div#menu li{
+    border-top: groove 1px #a0b4c9;
+    border-bottom: groove 1px #a0b4c9;    
+}
+div#Contenido {
+    width: 70%;
+    background-color: #d9e1e9;
+    float: right;
+    border: 1px groove #6787a9;
+    height: 900px;
+    overflow: scroll;
+}
+footer {
+    float: left;
+    border-top: 2px groove #6787a9;
+    width: 100%;
+}
+h1,h2,h3 {
+    width: 100%;
+    text-align: center;
+}
+*#Encabezado img {
+    width: 1200px;
+    height: 240px;
+}
+#Contenido li {
+    list-style-image: url(../imagenes/item.png);
+    margin-left: 30px; 
+}
+article aside {
+    float: right;
+    display: inline-block;
+}
+article img {
+    width: 25%;
+}
+section, section header,article {
+    border-top: 1px #426994 solid;
+    border-bottom: 1px #426994 solid;
+}
+section h2,h3 {
+    border-bottom: 1px groove #6787a9;
+}
